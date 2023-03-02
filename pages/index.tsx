@@ -1,7 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import CardSlider from '../components/CardSlider'
+import Grid from '../components/Grid'
+import Pricing from '../components/Pricing'
 import Slider from '../components/Slider'
 
 const Home: NextPage = () => {
@@ -14,6 +15,8 @@ const Home: NextPage = () => {
       {/* <Slider/> */}
       <main>
         <CardSlider/>
+        <Grid/>
+        <Pricing/>
       </main>
     </div>
   )
